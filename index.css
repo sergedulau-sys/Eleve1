@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #faf8f5;
+}
+
+::selection {
+  background: #1a1a1a;
+  color: #fff;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #bbb;
+}
